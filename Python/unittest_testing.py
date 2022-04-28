@@ -1,3 +1,5 @@
+# In this file, we explore the Python unit testing framework called unittest and all its method.
+
 #import unit testing framework - https://docs.python.org/3/library/unittest.html
 import unittest
 
