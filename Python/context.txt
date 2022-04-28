@@ -1,0 +1,3 @@
+The following code will aim to carry out unit testing according to the built-in Python unit testing framework.
+
+https://docs.python.org/3/library/unittest.html
