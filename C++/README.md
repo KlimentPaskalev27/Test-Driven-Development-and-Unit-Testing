@@ -19,3 +19,6 @@ This unit testing exercise will use the C++ unit testing framework called "cppun
 Follow instructions from https://freedesktop.org/wiki/Software/cppunit/ and clone git repo to local directory.
 git clone git://anongit.freedesktop.org/git/libreoffice/cppunit/
 After cloning the repo in a folder cppunit, our main.cpp can now #include the library locally.
+
+## Basic physics engine
+We create a basic physics engine which is inside the src folder. The files physics.cpp and physics.h provide an implementation of a Thing class later usied in main.cpp to perform tests.
