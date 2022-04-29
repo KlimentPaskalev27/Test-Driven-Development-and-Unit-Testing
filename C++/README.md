@@ -20,5 +20,21 @@ Follow instructions from https://freedesktop.org/wiki/Software/cppunit/ and clon
 git clone git://anongit.freedesktop.org/git/libreoffice/cppunit/
 After cloning the repo in a folder cppunit, our main.cpp can now #include the library locally.
 
+### Testing in VS Code terminal using cppunit
+Command: g++ main.cpp -lcppunit -o runme
+-l informs that we are using a library, then followed by the library name cppunit
+
+### Key takeaways from using cppunit
+#### Determine what is a valid test in a C++ app using cppunit library
+- TestCaller is NOT a test.
+- Two asserts in one function DO NOT result in two tests.
+- An assert DOES NOT count as as test, a function does.
+- A function with a single assert IS a test.
+- An assert IS NOT a test, a function IS a test.
+
+##### More on assert functions
+- https://web.archive.org/web/20180601221213/http://cppunit.sourceforge.net/doc/lastest/group___assertions.html 
+
 ## Basic physics engine
 We create a basic physics engine which is inside the src folder. The files physics.cpp and physics.h provide an implementation of a Thing class later usied in main.cpp to perform tests.
+
